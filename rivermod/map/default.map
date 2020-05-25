@@ -46,7 +46,7 @@ ocean_region = {
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }
 
-#Remove # to disable river ports/shipbuilding
+#Remove # to disable river ports/shipbuilding on that river system
 major_rivers = {
 	#898 1488 1450 1487 1560 1486 #Champlain to Hudson River
 	#939 954 1497 1498 1448 #Ohio River
@@ -59,11 +59,11 @@ major_rivers = {
 	#1612 1613 #Colorado River
 	#921 1618 1619 #Sacramento River
 	#920 1615 1616 1617 1626 #Columbia River
-	1443 1460 1461 1462 #Rio Magdalena
-	956 957 1445 1446 1463 1464 #Rio Orinoco
+	#1443 1460 1461 1462 #Rio Magdalena
+	#956 957 1445 1446 1463 1464 #Rio Orinoco
 	#935 936 1558 #Tombigbee/Mobile River
 	#933 934 952 1496 #Tennessee River
-	1444 #Essequibo River
+	#1444 #Essequibo River
 	#913 #Saguenay River
 	#899 #Delaware Canal
 	#937 938#Cumberland River
