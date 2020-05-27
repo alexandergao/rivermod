@@ -47,6 +47,9 @@ interstate_trade = { # The Interstate
 			province_id = 187
 			province_id = 548
 			province_id = 88
+			province_id = 1055
+			province_id = 1009
+			province_id = 96
 		}
 	}
 
@@ -175,9 +178,9 @@ interstate_trade = { # The Interstate
 	path = {
 		17 1271
 	}
-	# Pittsburg - Cleveland
+	# Pittsburg - Cairo
 	path = {
-		88 104 102
+		88 92 94 95 96 1003 1006 122 1009 1013 1014 1055
 	}
 	# Vancouver - Tobin (via Edmonton)
 	path = {
