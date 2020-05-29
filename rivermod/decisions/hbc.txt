@@ -1,0 +1,60 @@
+decisions = {
+	form_rupertsland = {
+		is_high_prio = yes
+		ai_check_interval = 8
+		potential = {
+			is_alternate_start = no
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+			}
+			is_playable = yes
+			independent = yes
+			culture = prairielander
+			e_rupertsland = {
+				has_holder = no
+			}
+			}
+			e_rupertsland = {
+				has_holder = no
+			}
+		allow = {
+			is_adult = yes
+			prisoner = no
+			NOT = { is_incapable = yes }
+			culture = prairielander
+			prestige = 1000
+			wealth = 800
+			has_landed_title = k_manitoba 
+			has_landed_title = k_prairieland 
+			any_demesne_title = {
+				tier = KING
+			}
+			
+			}
+		effect = {
+			activate_title = { title = e_rupertsland status = yes }
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			primary_title = {
+				e_rupertsland = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			wealth = -800
+			set_global_flag = hbc_restored
+			narrative_event = { id = hbc.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+				}	
+}

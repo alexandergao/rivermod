@@ -1,0 +1,81 @@
+##HBC
+k_hudsons_bay_company = {
+	color={ 200 16 46 }
+	color2={ 0 0 0 }
+
+	capital = 853 # PortNelson
+	
+	allow = { is_republic = yes }
+	
+	title = Governor
+	
+	dignity = 200 # Never want the Hanseatic League to change primary title
+	}
+	
+b_york = {
+	culture = prairelander
+	}
+	
+e_rupertsland = {
+	color={ 200 16 46 }
+	color2={ 0 0 0 }
+
+	capital = 853 # PortNelson
+	
+	title = High Governor
+	
+	culture = prairielander
+	
+	allow = {
+		war = no
+		NOT = { tier = emperor }
+		culture = prairielander
+		OR = {
+			realm_size = 150
+		}
+	}
+	
+	dignity = 200 # Never want the Hanseatic League to change primary title
+	}
+
+##Pittsburgh	
+d_pittsburgh = {
+	color={ 160 160 160 }
+	color2={ 0 0 0 }
+
+	capital = 88 # Pittsburgh
+	
+	allow = { is_republic = yes }
+	
+	dignity = 200 # Never want the Hanseatic League to change primary title
+	}
+	
+b_ashur = {
+	culture = rostmann
+	}
+	
+##The Pharaohs
+b_buntline = {
+	culture = battleborn
+	}
+
+##Nebraska
+b_brasge = {
+	culture  = grangelander
+	}
+	
+##Emerald City
+d_emerald_city = {
+	color={ 80 200 120 }
+	color2={ 0 0 0 }
+
+	capital = 543 # Seattle
+	
+	allow = { is_republic = yes }
+	
+	dignity = 200 # Never want the Hanseatic League to change primary title
+	}
+
+b_freeland = {
+	culture = portlander
+	}

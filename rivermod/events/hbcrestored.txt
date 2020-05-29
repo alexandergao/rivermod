@@ -1,0 +1,48 @@
+namespace = hbc
+
+#Rupert's Land Restored!
+narrative_event={
+	id = hbc.1
+	title = EVTNAME_restore_hbc
+	desc = EVTDESC_restore_hbc_desc
+	picture = GFX_evt_restore_hbc
+	is_triggered_only = yes
+	
+	trigger = {
+		is_playable = yes
+		capital_scope = { region = custom_canada }
+		has_global_flag = hbc_restored
+	}
+	
+	option = {
+		name = EVTOPTA_restore_hbc
+		trigger = {
+			has_landed_title = e_rupertsland
+		}
+		prestige = 2000
+		give_nickname = nick_the_great
+		
+		}
+	}
+	option = {
+		name = EVTOPT_hbc_coreligionist
+		trigger = {
+            NOT = { has_landed_title = e_rupertsland }
+			e_rupertsland = {
+				holder_scope = {
+					religion = ROOT
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_hbc_bystander
+		trigger = {
+			NOT = { has_landed_title = e_rupertsland }
+			e_rupertsland = {
+				holder_scope = {
+					NOT = { religion = ROOT }
+				}
+			}
+		}
+	}
