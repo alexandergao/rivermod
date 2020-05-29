@@ -1,0 +1,13 @@
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_form_rupertsland"
+    texturefile = "gfx\\interface\\form_rupertsland.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_evt_restore_hbc"
+    texturefile = "gfx\\interface\\restore_hbc.tga"
+  }
+  
+}

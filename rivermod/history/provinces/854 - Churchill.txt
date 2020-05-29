@@ -1,0 +1,10 @@
+# County Title
+title=c_churchill
+
+# Settlements
+max_settlements=3
+b_churchill_MB=city
+
+# Misc
+culture=prairielander
+religion=high_church

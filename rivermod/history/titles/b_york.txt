@@ -1,0 +1,7 @@
+2300.1.1={
+	holding_dynasty=1869121
+	liege="k_hudsons_bay_company"
+}
+2660.1.1={
+	holder=1667058
+}

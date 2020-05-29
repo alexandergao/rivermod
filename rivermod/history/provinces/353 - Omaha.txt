@@ -1,0 +1,14 @@
+# 353 - Omaha
+
+# County Title
+title=c_omaha
+
+# Settlements
+max_settlements=4
+b_omaha_NE=city
+b_lincoln_NE=temple
+b_nebraska_city_NE=castle
+
+# Misc
+culture=grangelander
+religion=trailwalker

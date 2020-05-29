@@ -1,0 +1,17 @@
+# 541 - Capitol
+
+# County Title
+title=c_capitol
+
+# Settlements
+max_settlements=4
+
+b_olympia_WA=city
+b_turnwater_WA=castle
+
+
+# Misc
+culture=canuck
+religion=gaian
+
+#History
